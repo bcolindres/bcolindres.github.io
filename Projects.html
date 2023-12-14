@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brians Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--Navbar, I created a navbar with the intention of allowing the website to show the list items until screen was below large. Once screen is under "large" I created a "hamburger menu" by creating a button and using a toggler icon-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container"><a href="#" class="navbar-brand">Brian's Website</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" target="_blank" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link">My Skills</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!--My Projects-->
+
+<section class="bg-dark text-light p-5" id="Projects">
+  <div class="container">
+    <h2 class="mb-3">My Projects</h2>
+    <div class="row text-center">
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-controller"></i>
+            </div>
+            <h3 class="card-title mb-3">
+              PacMan
+            </h3>
+            <p class="card-text">
+              Have you ever played Pacman? Check this out! This was my first exercise when beginning my coding journey. In this exercise you will see the Pacman figure move from left to right of your screen as it opens and closes its mouth. This was all done using the powerful language of JavaScript. 
+            </p>
+            <a href="https://github.com/bcolindres/pacman" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-eye"></i>
+            </div>
+            <h3 class="card-title mb-3">
+              Eye Exercise
+            </h3>
+            <p class="card-text">
+              This was one of my favorite exercises to work on! JavaScript doesn't only bring your code to life but it also makes it interactive for its users. In this simple exercise we use an image of two eyes and use JavaScript to make the "eye" follow the cursor as it moves across the screen.
+            </p>
+            <a href="https://github.com/bcolindres/Eyes" target="_blank" class="btn btn-dark">View Project</a>
+          </div>
+         </div>
+       </div>
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-geo"></i>
+            </div>
+            <h3 class="card-title mb-3">Bus Tracker</h3>
+            <p class="card-text">
+             This exercise was one of the difficult ones to complete. In this exercise we use everything from HTML, to CSS, from JavaScript, to API's! Here you will see in real time the actual movement and location of subways within the Boston area. 
+            </p>
+            <a href="https://github.com/bcolindres/RealTimeSubwayTracker" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--My Skills-->
+<section class="p-5" id="Skills">
+  <div class="container">
+    <h2 class="mb-3">My Skills</h2>
+    <div class="grid-container">
+      <div class="grid-item"><div class="h1"><i class="fa-brands fa-html5 fa-bounce fa-2xl"></i></div> 
+      <p class="skillsIcon">HTML</p></div>
+      <div class="grid-item"> <div class="h1"><i class="fa-brands fa-css3 fa-flip fa-2xl"></i></div> 
+      <p class="skillsIcon">CSS</p></div>
+      <div class="grid-item">  <div class="h1"><i class="fa-brands fa-js fa-shake fa-2xl"></i></div> 
+      <p class="skillsIcon">JavaScript</p></div>
+      <div class="grid-item"><div class="h1"><i class="fa-brands fa-node fa-spin fa-2xl"></i></div> 
+      <p class="skillsIcon">Node.JS</p></div>
+      <div class="grid-item"><div class="h1"><i class="fa-brands fa-square-git fa-beat-fade fa-2xl"></i></div> 
+      <p class="skillsIcon">Gitbash</p></div>
+      <div class="grid-item"><div class="h1"><i class="fa-brands fa-bootstrap fa-bounce fa-2xl"></i></div> 
+      <p class="skillsIcon">Bootstrap</p></div>
+    </div>
+    <h3>Languages:</h3>
+      <p class="languageStyle">Bilingual: Fluent in English and Spanish</p>
+    
+  </div>
+  </section>
+
+
+
+
+
+
+
+<!--Footer-->
+<div class="b-example-divider"></div>
+
+<div class="container">
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+<div class="col mb-3">
+  <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+  </a>
+  <p class="text-body-secondary">&copy; 2023</p>
+</div>
+
+<div class="col mb-3">
+
+</div>
+
+<div class="col mb-3">
+  <h5>Section</h5>
+  <ul class="nav flex-column">
+    <li class="nav-item mb-2"><a href="index.html" target="_blank" class="nav-link p-0 text-body-secondary">About Me</a></li>
+  </ul>
+</div>
+
+<div class="col mb-3">
+  <h5>Section</h5>
+  <ul class="nav flex-column">
+    <li class="nav-item mb-2"><a href="#Projects" target="_blank" class="nav-link p-0 text-body-secondary">My Projects</a></li> 
+  </ul>
+</div>
+
+<div class="col mb-3">
+  <h5>Section</h5>
+  <ul class="nav flex-column">
+    <li class="nav-item mb-2"><a href="#Skills" target="_blank" class="nav-link p-0 text-body-secondary">My Skills</a></li>
+  </ul>
+</div>
+</footer>
+</div>
+
+
+<!--Bootstrap Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!--FontAwesome Link-->
+<script src="https://kit.fontawesome.com/5af2066733.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+

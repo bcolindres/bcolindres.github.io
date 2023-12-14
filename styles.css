@@ -1,0 +1,73 @@
+.specialParagraph {
+font-family: 'Merriweather', serif;
+font-size: 1.3em;
+}
+
+.card-text{
+  font-size: large;
+  font-weight: 400;
+  font-style:normal
+}
+.p-5{
+  background-color: darkgray;
+
+}
+
+.UsernameGit{
+  font-size:larger
+}
+
+.LinkedMessage{
+  font-size: larger;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 10px; /* Gap between grid items */
+  
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.fa-html5{
+   color: #e85211;
+}
+
+.fa-css3{
+  color: #3e72ea;
+}
+
+.fa-js{
+  color: #eddb12;
+}
+
+.fa-node{
+  color: green;
+}
+
+.fa-square-git{
+  color: black;
+}
+
+.fa-bootstrap{
+  color: #af45e8;
+}
+
+.skillsIcon{
+  font-size: large;
+  font-weight: bolder;
+}
+
+.languageStyle{
+  font-style: italic;
+  font-size: large;
+}
+
+
+
+
+
