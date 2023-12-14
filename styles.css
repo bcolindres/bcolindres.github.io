@@ -1,6 +1,12 @@
 .specialParagraph {
 font-family: 'Merriweather', serif;
 font-size: 1.3em;
+flex: 1;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
 }
 
 .card-text{
