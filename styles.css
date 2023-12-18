@@ -10,21 +10,22 @@ body{
 }
 
 .embed-container{
-  position: relative; 
-        padding-bottom: 56.25%;
-        overflow: hidden;
-        max-width: 100%;
-        height: auto;
+  position: relative;
+  width: 100%; 
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .embed-container iframe,
 .embed-container object,
-.embed-container embed { 
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+.embed-container embed {
+  position: relative;
+  width: 100%;
+}
+
+
+.img-fluid{
+  height: 450px;
 }
 
 .card-text{
@@ -38,18 +39,21 @@ body{
 }
 
 .UsernameGit{
-  font-size:larger
+  font-size:larger;
+  font-weight: bold;
+  
 }
 
 .LinkedMessage{
   font-size: larger;
+  font-weight: bold;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
-  grid-template-rows: 1fr 1fr; /* Two equal rows */
-  gap: 10px; /* Gap between grid items */
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 10px; 
   
 }
 
